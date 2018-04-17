@@ -13,7 +13,6 @@ public class Calculo_screen {
 		PageFactory.initElements(new AppiumFieldDecorator(driver), this);
 	}
 	
-
 	@iOSFindBy(accessibility="apple_first_input")
 	private RemoteWebElement inputFirstNumber;
 	
@@ -37,15 +36,11 @@ public class Calculo_screen {
 
 	
 	public void fillFirstNumber(String number) {
-		//inputFirstNumber.click();
-		resultText.clear();
 		inputFirstNumber.clear();
 		inputFirstNumber.sendKeys(number);
 	}
 	
 	public void fillSecondNumber(String number) {
-		resultText.clear();
-		//inputSecondNumber.click();
 		inputSecondNumber.clear();
 		inputSecondNumber.sendKeys(number);
 	}
