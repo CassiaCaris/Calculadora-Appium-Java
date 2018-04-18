@@ -7,9 +7,9 @@ import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 import io.appium.java_client.pagefactory.iOSFindBy;
 
-public class Calculo_screen {
+public class CalculoScreen {
 	
-	public Calculo_screen(AppiumDriver<RemoteWebElement> driver) {
+	public CalculoScreen(AppiumDriver<RemoteWebElement> driver) {
 		PageFactory.initElements(new AppiumFieldDecorator(driver), this);
 	}
 	

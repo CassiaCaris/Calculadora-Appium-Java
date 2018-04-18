@@ -12,13 +12,13 @@ import org.junit.Test;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebElement;
 
-import cpc_maven.calculadora.screen.Calculo_screen;
+import cpc_maven.calculadora.screen.CalculoScreen;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.ios.IOSDriver;
 
 public class CalculoTeste {
 	
-	private static Calculo_screen screen;
+	private static CalculoScreen screen;
 	private static AppiumDriver<RemoteWebElement> driver;
 	
 	@BeforeClass
@@ -31,7 +31,7 @@ public class CalculoTeste {
 		capabilities.setCapability("platformVersion", "11.3");
 		capabilities.setCapability("automationName" , "XCUITest");
 		driver = new IOSDriver<RemoteWebElement>(new URL("http://localhost:4723/wd/hub"), capabilities);
-		screen = new Calculo_screen(driver);
+		screen = new CalculoScreen(driver);
 	
    }
 	
