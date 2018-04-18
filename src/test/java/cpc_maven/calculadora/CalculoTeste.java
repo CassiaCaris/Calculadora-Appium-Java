@@ -41,8 +41,8 @@ public class CalculoTeste {
 		screen.fillSecondNumber("20");
 		screen.buttonSum.click();
 		assertTrue("Valor da Soma é (30)", screen.operationResult().equals("30"));
+	 
 	}
-	
 	
 	@Test
 	public void subtracao() {
@@ -67,7 +67,7 @@ public class CalculoTeste {
 		screen.buttonDiv.click();
 		assertTrue("Valor da Divisão é (75)", screen.operationResult().equals("75"));
 	}
-
+	
 	@AfterClass
 	public static void encerra() {
 		driver.quit();
