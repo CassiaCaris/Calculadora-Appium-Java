@@ -13,4 +13,4 @@
 
   1. Abrir o projeto no IDE
   2. Subir o Appium
-  ``` appium```
+    ``` appium```
