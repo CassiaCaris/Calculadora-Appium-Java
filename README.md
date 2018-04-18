@@ -4,7 +4,7 @@
   
 **__Componentes necessarios para executar o projeto__**
 
-  - Java (versão 8)
+  - Java
   - Appium
   - Node
   - Maven
