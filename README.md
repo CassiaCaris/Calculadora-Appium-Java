@@ -4,7 +4,7 @@
   
 ## Componentes necessários para executar o projeto
 
-  - Java
+  - Java (Versão 8)
   - Appium
   - Node
   - Maven
@@ -15,3 +15,7 @@
       ``` 
       $ appium
       ```
+  2. Para executar o Projeto
+     ```
+     $ mvn clean test
+     ``
