@@ -45,7 +45,7 @@ public class CalculoScreen {
 		inputSecondNumber.sendKeys(number);
 	}
 
-	public Object operationResult() {
+	public String operationResult() {
 		return resultText.getText().toString().trim();
 	}
 	

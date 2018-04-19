@@ -1,17 +1,17 @@
-**Calculadora Appium com Java**
+# Calculadora Appium com Java
 
   Automação simples da Calculadora usando Appium Java.
   
-**__Componentes necessários para executar o projeto__**
+## Componentes necessários para executar o projeto
 
   - Java
   - Appium
   - Node
   - Maven
   
-**Informações para a execução do projeto**
+## Informações para a execução do projeto
 
-  1. Abrir o projeto no IDE
-  2. Subir o Appium
-  
-      ``` appium```
+  1. Subir o Appium
+      ``` 
+      $ appium
+      ```
