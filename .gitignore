@@ -1,6 +1,7 @@
-/target
+/target/
+/target/maven-status/
 /.settings
 .classpath
 .project
-/.metadata
+/.metadata/
 .DS_Store
