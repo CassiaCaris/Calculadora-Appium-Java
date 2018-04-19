@@ -40,8 +40,7 @@ public class CalculoTeste {
 		screen.fillFirstNumber ("10");	
 		screen.fillSecondNumber("20");
 		screen.buttonSum.click();
-		assertTrue("Valor da Soma é (30)", screen.operationResult().equals("30"));
-	 
+		assertTrue("Valor da Soma é diferente de 30.", screen.operationResult().equals("30"));
 	}
 	
 	@Test
@@ -49,7 +48,7 @@ public class CalculoTeste {
 		screen.fillFirstNumber("50");
 		screen.fillSecondNumber("35");
 		screen.buttonSubt.click();
-		assertTrue("Valor da Subtração é (15)", screen.operationResult().equals("15"));
+		assertTrue("Valor da Subtração é diferente de 15.", screen.operationResult().equals("15"));
 	}
 	
 	@Test
@@ -57,7 +56,7 @@ public class CalculoTeste {
 		screen.fillFirstNumber("9");
 		screen.fillSecondNumber("9");
 		screen.buttonMult.click();
-		assertTrue("Valor da Multiplicação é (81)", screen.operationResult().equals("81"));
+		assertTrue("Valor da Multiplicação é diferente de 81.", screen.operationResult().equals("81"));
 	}
 	
 	@Test
@@ -65,7 +64,7 @@ public class CalculoTeste {
 		screen.fillFirstNumber("150");
 		screen.fillSecondNumber("2");
 		screen.buttonDiv.click();
-		assertTrue("Valor da Divisão é (75)", screen.operationResult().equals("75"));
+		assertTrue("Valor da Divisão é diferente de 75.", screen.operationResult().equals("75"));
 	}
 	
 	@AfterClass
