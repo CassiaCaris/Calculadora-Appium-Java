@@ -16,7 +16,7 @@ import cpc_maven.calculadora.screen.CalculoScreen;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.ios.IOSDriver;
 
-public class CalculoTeste {
+public class CalculoTest {
 	
 	private static CalculoScreen screen;
 	private static AppiumDriver<RemoteWebElement> driver;
