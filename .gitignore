@@ -1,6 +1,10 @@
 /target/
+<<<<<<< HEAD
 /target/maven-status/
 /.settings
+=======
+/.settings/
+>>>>>>> 8a3b3e02e43b20823d1f0e63a2cb27b3fe1e7ea1
 .classpath
 .project
 /.metadata/
