@@ -8,6 +8,7 @@
   - Appium
   - Node
   - Maven
+  - Android Emulator
   
 ## Informações para a execução do projeto
 
